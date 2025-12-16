@@ -1,0 +1,9 @@
+Dependencies:
+i686 - gcc and binutils, make a cross compiler
+xorriso - sudo apt install xorriso --> used for grub-mkrescue
+
+
+To create the iso: grub-mkrescue -o myos.iso isodir
+
+To run it: qemu-system-i386 -cdrom myos.iso 
+
