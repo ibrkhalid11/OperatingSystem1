@@ -4,7 +4,7 @@
 .set MULTIBOOT2_HEADER_LENGTH, (multiboot_header_end - multiboot_header_start)
 .set MULTIBOOT2_CHECKSUM, -(MULTIBOOT2_ARCHITECTURE + MULTIBOOT2_HEADER_LENGTH + MULTIBOOT2_MAGIC)
 # Declare a header as in the Multiboot Standard.
-.section .multiboot
+.section .multiboot2
 .align 8
 
 
