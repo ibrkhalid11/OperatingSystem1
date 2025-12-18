@@ -56,9 +56,18 @@ void terminal_delete_last_line(void) {
     }
 }
 void terminal_putchar(char c) {
-	int line;
 	unsigned char uc = c;
 
+	/* \n support */
+	if(uc == '\n'){
+		terminal_column = 0;
+		if(++terminal_row == VGA_HEIGHT){
+			terminal_scroll();
+			terminal_delete_last_line();
+			terminal_row = VGA_HEIGHT - 1;
+		}
+		return;
+	}
 	terminal_putentryat(uc, terminal_color, terminal_column, terminal_row);
 	if (++terminal_column == VGA_WIDTH) {
 		terminal_column = 0;
