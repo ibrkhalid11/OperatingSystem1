@@ -1,0 +1,18 @@
+TODO READING:
+AST: All chapter 1
+TEP: All Chapter 1-3
+
+TODO FOR CODE:
+1. understand ELF binary already written
+2. Start off by learning paging
+3. implement higher half kernel
+4. Segment: implement GDT
+5. Interrupts(write an IDT)
+6. Timers
+7. Obtain Memory Map
+8. Physical Memory Manager
+9. Virt memory allocator
+10. Heap allocator
+
+11. SCHEDULER
+
