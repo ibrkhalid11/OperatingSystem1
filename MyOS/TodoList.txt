@@ -1,31 +1,28 @@
 TODO READING:
 AST: All chapter 1
-TEP: All Chapter 1-3
+TEP: All Chapters 4,5,6,7,8
 
 TODO FOR CODE:
-1. understand ELF binary already written
-2. Start off by learning paging
-3. Implement higher half kernel
-4. Segment: implement GDT
-5. Interrupts(write an IDT)
-6. Timers
-7. Obtain Memory Map
-8. Physical Memory Manager
-9. Virt memory allocator
-10. Heap allocator
-
-11. SCHEDULER
-
-
+++understand ELF binary already written
+++Segment: implement GDT
+++Interrupts(write an IDT)
+++Timers
+++Obtain Memory Map
+++Physical Memory Manager
+++Virt memory allocator
+++Heap allocator
+++SCHEDULER
+++Write Keyboard Driver
+++Get terminal Working
 
 
 DONE:
-
-
 Learning:
 
 Reading:
 TEP: 1,2,3
 
 Coding:
+-Finished basic Paging(1 table)
+-Finished higher half kernel(0xC0000000)
 
