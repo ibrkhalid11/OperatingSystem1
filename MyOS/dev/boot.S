@@ -28,7 +28,7 @@ multiboot_header_end:
 
 
 # Reserve a stack for the initial thread.
-.section .bootstrap_stack, "aw", @nobits
+.section .bootstrapstack, "aw", @nobits
 .align 16
 stack_bottom:
 .skip 16384 # 16 KiB

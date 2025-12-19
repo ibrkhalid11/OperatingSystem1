@@ -5,7 +5,7 @@ TEP: All Chapter 1-3
 TODO FOR CODE:
 1. understand ELF binary already written
 2. Start off by learning paging
-3. implement higher half kernel
+3. Implement higher half kernel
 4. Segment: implement GDT
 5. Interrupts(write an IDT)
 6. Timers
@@ -15,4 +15,17 @@ TODO FOR CODE:
 10. Heap allocator
 
 11. SCHEDULER
+
+
+
+
+DONE:
+
+
+Learning:
+
+Reading:
+TEP: 1,2,3
+
+Coding:
 
