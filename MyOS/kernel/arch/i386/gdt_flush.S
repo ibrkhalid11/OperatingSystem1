@@ -15,3 +15,12 @@ gdt_flush:
     ljmp $0x08, $flush
 flush:
     ret
+
+.globl tss_flush
+.type tss_flush, @function
+
+tss_flush:
+    movw $0x2B, %ax
+    ltr %ax
+    ret
+
