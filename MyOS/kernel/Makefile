@@ -29,6 +29,8 @@ LIBS:=$(LIBS) $(KERNEL_ARCH_LIBS)
 
 KERNEL_OBJS=\
 $(KERNEL_ARCH_OBJS) \
+arch/i386/idt.o \
+arch/i386/idtS.o \
 arch/i386/gdt.o \
 kernel/kernel.o \
 
