@@ -3,7 +3,6 @@ AST: All chapter 1
 TEP: All Chapters 4,5,6,7,8
 
 TODO FOR CODE:
-++Interrupts(write an IDT)
 ++Timers
 ++Obtain Memory Map
 ++Physical Memory Manager
@@ -25,5 +24,6 @@ Coding:
 -Finished basic Paging(1 table)
 -Finished higher half kernel(0xC0000000)
 ++Segment: implement GDT and TSS
+++Interrupts(write an IDT)
 
 
