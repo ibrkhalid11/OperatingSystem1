@@ -3,6 +3,8 @@
 #include <kernel/idt.h>
 #include <kernel/tty.h>
 #include <kernel/gdt.h>
+#include <kernel/timer.h>
+
 void kernel_main(void){
     terminal_initialize();
     initGdt();
@@ -12,8 +14,6 @@ void kernel_main(void){
     printf("this is line 3\n");
     initIdt();
     printf("IDT initialized!!\n");
-    volatile int a = 1;
-    volatile int b = 0;
-    volatile int c = a/b;
-    while(1){}
+    initTimer();
+    for(;;);
 }
